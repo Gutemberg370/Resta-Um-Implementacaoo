@@ -30,7 +30,7 @@ public class Main extends Application {
 	public static final int WIDTH = 17;
     public static final int HEIGHT = 11;
 
-    // Server and Client variables 
+    // Variáveis de Servidor e Cliente 
     private boolean isServer = true;
     private NetworkConnection connection = isServer? createServer(55555) : createClient("127.0.0.1",55555);
     
@@ -49,7 +49,7 @@ public class Main extends Application {
     private Button resetButton = new Button("Resetar");
     
     
-    // Create login page
+    // Criar página de Login
     private Parent createLogin() {
     	Pane root = new Pane();
     	
