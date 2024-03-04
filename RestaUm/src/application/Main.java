@@ -31,7 +31,7 @@ public class Main extends Application {
     public static final int HEIGHT = 11;
 
     // Server and Client variables 
-    private boolean isServer = false;
+    private boolean isServer = true;
     private NetworkConnection connection = isServer? createServer(55555) : createClient("127.0.0.1",55555);
     
     
